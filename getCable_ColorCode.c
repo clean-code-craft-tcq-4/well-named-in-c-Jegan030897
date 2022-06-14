@@ -28,6 +28,7 @@ void PrintColorCodeReferenceManual(void)
     int minorColorCode_Index;
     int pairNumber = 1;
     
+    printf("-----------------------------------\n");
     printf("25-pair color code reference manual\n");
     printf("-----------------------------------\n");
     printf("| Pair no.| Major color | Minor color |\n");
