@@ -6,6 +6,8 @@ int main() {
 
     testColorCodeToPairNumber(BLACK, ORANGE, 12);
     testColorCodeToPairNumber(VIOLET, SLATE, 25);
+    
+    PrintColorCodeReferenceManual();
 
     return 0;
 }
