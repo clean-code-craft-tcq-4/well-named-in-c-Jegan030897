@@ -16,3 +16,4 @@ ColorPair GetColorCodeFromPairNumber(int pairNumber);
 int GetPairNumberFromColorCode(const ColorPair* colorCode);
 void testPairNumberToColorCode(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 void testColorCodeToPairNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
+void PrintColorCodeReferenceManual(void);
