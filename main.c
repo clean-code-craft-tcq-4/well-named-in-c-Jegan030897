@@ -2,11 +2,11 @@
 #include <assert.h>
 
 int main() {
-    testNumberToPair(4, WHITE, BROWN);
-    testNumberToPair(5, WHITE, SLATE);
+    testPairNumberToColorCode(4, WHITE, BROWN);
+    testPairNumberToColorCode(5, WHITE, SLATE);
 
-    testPairToNumber(BLACK, ORANGE, 12);
-    testPairToNumber(VIOLET, SLATE, 25);
+    testColorCodeToPairNumber(BLACK, ORANGE, 12);
+    testColorCodeToPairNumber(VIOLET, SLATE, 25);
 
     return 0;
 }
