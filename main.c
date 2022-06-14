@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <assert.h>
+#include "cableColorCode.h"
 
 int main() {
     testPairNumberToColorCode(4, WHITE, BROWN);
